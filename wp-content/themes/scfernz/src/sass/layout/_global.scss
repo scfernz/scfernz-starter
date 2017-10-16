@@ -1,0 +1,20 @@
+/* Variables */
+
+// Fonts
+
+// Colors
+
+/* Clear fix */
+.cf:before,
+.cf:after {
+    content: "";
+    display: block;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
